@@ -1,17 +1,16 @@
-# videobelajar-reactjs
-💻VideoBelajar — Web-Based Video Learning Platform 
-VideoBelajar is an interactive web-based video learning platform built using React JS, Tailwind CSS v4, and Vite. The platform is designed to provide a flexible, fully responsive, and seamless learning experience across various devices (mobile and desktop).
+# React + Vite
 
-🔐Key Features
-1. Multi-Device Responsiveness: Precise and adaptive user interface tailored for both Desktop and Mobile screens.
-2. Authentication Pages: Modular user onboarding flow including Register and Login screens.
-3. Interactive Hero Banner: Features a 3D-styled Interactive Mobile Mockup with scrollable content preview.
-4. Modern Design: Custom color scheme with radial gradient typography effects for brand identity.
-5. Reusable Component Architecture: Built with modular components such as Button and InputField for clean code maintainability.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🧑🏻‍💻Tech Stack
-- Frontend: React JS
-- Build Tool: Vite
-- Styling: Tailwind CSS (v4)
-- Routing: React Router DOM
-- Deployment: Vercel
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
